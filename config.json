@@ -1,0 +1,18 @@
+{
+  "inputToken": {
+    "name": "ETH",
+    "address": "",
+    "decimals": 18,
+    "nativeToken": true
+  },
+  "outputToken": {
+    "name": "KLIMA",
+    "address": "0x4e78011ce80ee02d2c3e649fb657e45898257815",
+    "decimals": 18,
+    "nativeToken": false
+  },
+  "inputAmount": 3,
+  "tagetPriceInUSD": 30,
+  "slippage": 0.08,
+  "chain": "polygon"
+}

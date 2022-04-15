@@ -16,3 +16,7 @@ features:
 - once the price is less than target price, ape
   - if the price is already larger, then don't ape
 - set up a slippage to ensure the success
+
+## Private key set up
+
+There's a envirnmental variable to setup, which is the private key, you could put that in an `.env` file

@@ -1,18 +1,28 @@
 {
-  "inputToken": {
+  "baseToken": {
     "name": "ETH",
     "address": "",
     "decimals": 18,
     "nativeToken": true
   },
-  "outputToken": {
-    "name": "KLIMA",
-    "address": "0x4e78011ce80ee02d2c3e649fb657e45898257815",
+  "targetToken": {
+    "name": "XYZ",
+    "address": "0xefAB0Beb0A557E452b398035eA964948c750b2Fd",
     "decimals": 18,
     "nativeToken": false
   },
-  "inputAmount": 3,
-  "tagetPriceInUSD": 30,
-  "slippage": 0.08,
-  "chain": "polygon"
+  "options": {
+    "inputAmount": 3,
+    "targetPrice": 0.00042,
+    "slippage": 0.08,
+    "routerAddress": "0xf164fC0Ec4E93095b804a4795bBe1e041497b92a",
+    "bidGasPrice": 1000,
+    "minPoolInputTokenAmount": 20,
+    "direction": "buy"
+  },
+  "rpcInfo": {
+    "rpc": "http://127.0.0.1:8545",
+    "name": "ethfork",
+    "chainId": 1337
+  }
 }
